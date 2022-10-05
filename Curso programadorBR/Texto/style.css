@@ -1,0 +1,67 @@
+
+.paragrafo1{
+    color:red;
+    text-decoration: none;
+    text-indent: 20px;
+    font-size: 20px;
+    text-align:justify;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 2;
+    text-shadow: 2px 2px 5px black;
+}
+.paragrafo2{
+    color:blue;
+    text-decoration: underline;
+    text-indent: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.paragrafo3{
+    color:black;
+    text-decoration: overline;
+    text-indent: 20px;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+.paragrafo4{
+    color:rgb(0, 192, 10);
+    text-decoration: line-through;
+    text-indent: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.paragrafo5{
+    font-family: Minhafonte;
+    font-style: normal;
+    font-size:24px;
+    font-weight: 500;
+    font-variant: small-caps;
+}
+@font-face{
+    font-family: Minhafonte;
+    src: url(./fontes/TheMachinatos.ttf);
+}
+.links{
+    text-decoration: none;
+    cursor: crosshair;
+    color:red;
+    border: 2px solid red;
+    padding:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+.links:active{
+    background: red;
+    color:white;
+}
+.links1:visited{
+    color:silver;
+    border-color: silver;
+}
+.links1:hover{
+    background: red;
+    color:white;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>Posição</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+            body{
+                font-size: 1.2rem;
+            }
+            .sticky{
+                position: sticky;
+                top:0;
+            }
+            .quadrado{
+                width:100px;
+                height:100px;
+                display:inline-block;
+            }
+            .ret{
+                width:200px;
+                height:600px;
+                overflow: auto;
+            }
+            .bg-red{
+                background-color: red;
+            }
+            .bg-blue{
+                background-color: blue;
+            }
+            .bg-green{
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="ret bg-red">
+            <div class="quadrado bg-blue"></div>
+            <div class="quadrado bg-green sticky"></div>
+            <div class="quadrado bg-blue"></div>
+            <div class="quadrado bg-blue"></div>
+            <div class="quadrado bg-blue"></div>
+            <div class="quadrado bg-blue"></div>
+            <div class="quadrado bg-blue"></div>
+            <div class="quadrado bg-blue"></div>
+            <div class="quadrado bg-blue"></div>
+        </div>
+    </body>
+
+</html>
+<!--position
+static:é o padrão da página
+relative:posso deslocar para os lados ou na altura, é em relação a onde ele devia estar
+fixed:vai ter as mesmas propriedades que o relative, porém é em relação a janela
+absolute:vai ser em relação ao pai do nosso elemento, mas se o pai do nosso elemento for static, ele vai ser em relação ao pai do pai, nesse código, vai ser em relação ao body
+sticky:posicionamento fixo na tela, ele não sai da tela, não importa onde esteja-->

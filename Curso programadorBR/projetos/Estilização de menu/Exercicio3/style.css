@@ -1,0 +1,22 @@
+a{
+    text-decoration: none;
+    padding:10px;
+    box-sizing: border-box;
+    display:block;
+    width: 260.172px;
+    color:rgb(139, 138, 138);
+    background-color: rgb(230, 228, 228);
+}
+a:hover{
+    background-color: white;
+    color:black;
+}
+h1{
+    display: inline-block;
+    padding:10px;
+    padding-left: 15px;
+    background-color: rgb(68, 68, 68);
+    width: 260.172px;
+    box-sizing: border-box;
+    color:white;
+}

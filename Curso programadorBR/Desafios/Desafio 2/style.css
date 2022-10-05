@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+.card{
+    padding: 1px 20px;
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    background: url(./assets/backgorund.png) no-repeat;
+    background-size: cover;
+    margin:auto;
+    margin-top: 10%;
+    font-family: 'IM Fell English SC', serif;
+}
+#insta{
+    list-style-image: url(./assets/Insta.png);
+}
+#twitter{
+    list-style-image: url(./assets/Twitter.png);   
+}
+#yt{
+    list-style-image: url(./assets/Youtube.png);
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+li{
+    list-style-type: none;
+    margin-left: 10px;
+}
+ul{
+    margin:0;
+    padding:0;
+    font-size: 12px;
+    font-family: 'IM Fell English SC', serif;
+    list-style-position: inside;
+}

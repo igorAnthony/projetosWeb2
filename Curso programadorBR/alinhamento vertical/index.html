@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>Posição</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+        .card{
+            position: relative;
+            float:left;
+            width:400px;
+            height: 200px;
+            border: 1px solid black;
+        }
+        .card1{
+            line-height: 200px;
+            text-align: center;
+        }
+        .card2{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+        .card3{
+            clear: left;
+            float:left;
+            border: 1px solid black;
+            padding-left: 150px;
+            padding-right:150px;
+            padding-bottom: 100px;
+            padding-top: 100px;
+            box-sizing: border-box;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <div class="card1">
+                Igor Anthony
+            </div>
+        </div>
+        <div class="card">
+            <div class="card2">
+                Igor Anthony
+            </div>
+        </div>
+        <div>
+            <div class="card3">
+                Igor Anthony
+            </div>
+        </div>
+    </body>
+</html>

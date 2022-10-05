@@ -1,0 +1,14 @@
+.menu{
+    padding:5px 5px 1px;
+    text-align: center;
+}
+a{
+    box-sizing: border-box;
+    padding:5px 4px 5px;
+    background-color: rgb(161, 159, 159);
+    color:white;
+}
+a:hover{
+    background-color: skyblue;
+    color: rgb(161, 159, 159);
+}
